@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/white"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="90dp">
+
+        <ImageView
+            android:id="@+id/logmain"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/logo" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center"
+        >
+
+        <android.support.design.widget.TextInputEditText
+            android:layout_width="220dp"
+            android:layout_height="40dp"
+            android:hint="Username"
+            android:background="@drawable/but1"
+            android:inputType="textEmailSubject"
+            android:id="@+id/userlog"
+            android:textColor="@color/lbulishg"
+            android:textColorHint="@color/lbulishg"
+            android:paddingRight="20dp"
+            android:paddingLeft="10dp">
+
+        </android.support.design.widget.TextInputEditText>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp">
+
+        <android.support.design.widget.TextInputEditText
+            android:layout_width="220dp"
+            android:layout_height="40dp"
+            android:textColorHint="@color/bulishg"
+            android:background="@drawable/but1"
+            android:hint="password"
+            android:inputType="textPassword"
+            android:id="@+id/userpass"
+            android:textColor="@color/lbulishg"
+            android:paddingRight="20dp"
+            android:paddingLeft="10dp"
+            >
+        </android.support.design.widget.TextInputEditText>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp">
+        <Button
+            android:layout_width="180dp"
+            android:layout_height="30dp"
+            android:background="@drawable/button"
+            android:text="login"
+            android:textColor="@color/white"
+            android:textSize="15dp"
+            android:id="@+id/b1"
+            android:onClick="login"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Forget Password."
+            android:textColor="@color/lbulishg"
+            android:textSize="10dp"
+            android:paddingRight="10dp"
+            android:paddingLeft="100dp"
+            />
+    </LinearLayout>
+
+
+</LinearLayout>

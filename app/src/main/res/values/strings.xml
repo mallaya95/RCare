@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">RCare</string>
+    <string name="title_activity_rcare">Rcare</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_basicdata">Basicdata</string>
+    <string name="title_activity_healthy_discussion">HealthyDiscussion</string>
+    <string name="title_activity_careset">Careset</string>
+</resources>
